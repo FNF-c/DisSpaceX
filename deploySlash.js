@@ -17,7 +17,7 @@ const { ApplicationCommandOptionType, REST, Routes, ApplicationCommandManager } 
   if (!deployed) {
     console.error(`Invalid sharing mode! Valid modes: guild, global`);
     console.error(`Usage example: node deploySlash.js guild <guildId> [clear]`);
-    console.error(`Usage example: node deploySlash.js global [clear]`);
+    console.error(` Usage example: node deploySlash.js global [clear]`);
     return process.exit(1);
   }
 
